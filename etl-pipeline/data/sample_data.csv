@@ -1,0 +1,11 @@
+name,gender,age,sum_assured,department,admission_date
+John Doe,M,50,75000.50,ICU,01/15/2020
+Jane Smith,F,1,82000.75,Pediatrics,2020-03-22
+Bob Johnson,M,35,68000.00,Cardiology,
+Alice Brown,F,20,72000.25,Oncology,10/12/2021
+Charlie Davis,F,28,91000.00,Psychiatric,05-05-2020
+Eve Wilson,F,,,Neurology,15/09/2021
+John Doe,M,50,75000.50,ICU,01/15/2020
+Mike Taylor,,67,88000.50,Cardiology,
+Sarah Miller,F,,invalid_number,Psychiatric,12-25-2020
+David Lee,M,30,79000.75,Neurology,2021/02/14

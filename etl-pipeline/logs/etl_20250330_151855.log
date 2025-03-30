@@ -1,0 +1,20 @@
+2025-03-30 15:18:55,370 - etl_pipeline - INFO - Extracting data from /app/data/sample_data1.csv
+2025-03-30 15:18:55,374 - etl_pipeline - INFO - Successfully extracted 12 records
+2025-03-30 15:18:55,375 - etl_pipeline - INFO - Starting data transformation
+2025-03-30 15:18:55,378 - etl_pipeline - WARNING - There are 4 values could not parse in column 'admission_date', and would be handled as missing values.
+2025-03-30 15:18:55,379 - etl_pipeline - INFO - Filled 1 missing values in categorical column 'gender' with mode: 'F'
+2025-03-30 15:18:55,381 - etl_pipeline - INFO - Filled 2 missing values in numeric column 'age' with median: 29.0
+2025-03-30 15:18:55,382 - etl_pipeline - INFO - Filled 1 missing values in categorical column 'sum_assured' with mode: '75000.50'
+2025-03-30 15:18:55,384 - etl_pipeline - INFO - Column 'admission_date' has 4 missing date values. Setting as today.
+2025-03-30 15:18:55,385 - etl_pipeline - INFO - Removed 1 duplicate records
+2025-03-30 15:18:55,388 - etl_pipeline - INFO - Converted column 'name' from object to string
+2025-03-30 15:18:55,390 - etl_pipeline - INFO - Converted column 'gender' from object to string
+2025-03-30 15:18:55,391 - etl_pipeline - INFO - Converted column 'age' from float64 to float64
+2025-03-30 15:18:55,392 - etl_pipeline - INFO - Converted column 'sum_assured' from object to float64
+2025-03-30 15:18:55,394 - etl_pipeline - INFO - Converted column 'department' from object to string
+2025-03-30 15:18:55,396 - etl_pipeline - INFO - Converted column 'admission_date' from object to datetime64[ns]
+2025-03-30 15:18:55,397 - etl_pipeline - INFO - Filled 1 missing values in numeric column 'sum_assured' with median: 77000.625
+2025-03-30 15:18:55,398 - etl_pipeline - INFO - Transformation complete. 11 clean records remaining
+2025-03-30 15:18:55,398 - etl_pipeline - INFO - Loading data to PostgreSQL table 'clean_data1'
+2025-03-30 15:18:55,409 - etl_pipeline - INFO - Successfully loaded 11 records into clean_data1
+2025-03-30 15:18:55,410 - etl_pipeline - INFO - ETL pipeline completed successfully

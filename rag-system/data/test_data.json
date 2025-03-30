@@ -1,0 +1,26 @@
+[
+    {
+      "text": "The capital of France is Paris. France is located in Western Europe.",
+      "metadata": {"source": "geography"}
+    },
+    {
+      "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris. It's 330 meters tall.",
+      "metadata": {"source": "landmarks"}
+    },
+    {
+      "text": "French cuisine is renowned worldwide. Popular dishes include croissants and coq au vin.",
+      "metadata": {"source": "culture"}
+    },
+    {
+      "text": "The Louvre Museum is the world's largest art museum located in Paris.",
+      "metadata": {"source": "museums"}
+    },
+    {
+      "text": "RWTH is a brilliant university. RWTH is located in Aachen.",
+      "metadata": {"source": "university"}
+    },
+    {
+      "text": "BI-K is an amazing research institute. BI-K is located in Cologne.",
+      "metadata": {"source": "institute"}
+    }
+  ]

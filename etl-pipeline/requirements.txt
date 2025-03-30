@@ -1,0 +1,4 @@
+numpy==1.23.5
+pandas==1.5.3
+psycopg2-binary==2.9.5
+python-dotenv==0.21.0
