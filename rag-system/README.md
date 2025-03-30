@@ -18,8 +18,8 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rag-system.git
-   cd rag-system
+   git clone https://github.com/JieyaoMin/BI-K_Assignment.git
+   cd BI-K_Assignment/rag-system
 
 2. Update .env file with Groq API key (new API Key create in https://console.groq.com/keys with a few clicks):
    GROQ_API_KEY=your_api_key_here
