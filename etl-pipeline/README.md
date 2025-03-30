@@ -31,8 +31,8 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/etl-pipeline.git
-   cd etl-pipeline
+   git clone https://github.com/JieyaoMin/BI-K_Assignment.git
+   cd BI-K_Assignment/etl-pipeline
 
 2. Update app/config.py and docker-compose.yml if necessary
 
