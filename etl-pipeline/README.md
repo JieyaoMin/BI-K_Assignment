@@ -5,12 +5,12 @@
 - Data extraction from a CSV file (etl-pipeline/data)
 - Data transformation including:
   - Date format standardization (Assumption: column name including case insensitive "date", 
-                                 e.g., "admission_date" in pipeline/data/sample_data.csv)
+                                 e.g., "admission_date" in data/sample_data.csv)
   - Missing value handling
-    - Numeric columns: fill with median
-    - Date columns: leave as null
-    - Categorical or text columns: fill with mode or 'Unknown'
-  - Duplicate removal
+    - Numeric columns: fill with median (e.g., "sum_assured" and "age" in data/sample_data.csv))
+    - Date columns: fill with specific date (today, e.g., "admission_date" in data/sample_data.csv)
+    - Categorical or text columns: fill with mode or 'Unknown' (e.g., "gender" and "department" in data/sample_data.csv, although it's not appropriate in this context)
+  - Duplicate removal (e.g., John Doe records in data/sample_data.csv)
   - Data type validation (majority vote convert column type, do the missing value handling again after the conversion)
 - Data loading to PostgreSQL
 - Logging (etl-pipeline/logs)
@@ -57,4 +57,4 @@
 
 4. Check loaded data
    ```bash
-   SELECT * FROM clean_data LIMIT 10;
+   SELECT * FROM clean_data;
